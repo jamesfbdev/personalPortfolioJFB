@@ -1,0 +1,51 @@
+
+/*      Nav Bar Styling       */
+
+.navbar {
+  background-color: rgb(79, 106, 106);
+}
+
+.nav-item-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  font-family: 'Saira', sans-serif;
+  color: rgb(207, 205, 188);
+  display: inline-block;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+a:hover .nav-item {
+  color: rgb(188, 186, 174);
+  text-shadow: 0 0 5px rgb(241, 231, 175);
+}
+
+/*       Hero Styling        */
+
+a:hover, a:visited, a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(188, 186, 174);
+  text-shadow: 0 0 5px rgb(238, 235, 218);
+}
+
+.hero-box {
+  border-radius: 6px;
+  margin-top: 25px;
+  background-color: rgb(79, 106, 106)
+}
+
+.hero-text {
+  font-family: 'Saira', sans-serif;
+  color: rgb(207, 205, 188);
+}
+
+.profile-img {
+  max-width: 100px;
+  max-height: 100px;
+}
